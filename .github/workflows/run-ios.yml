@@ -28,7 +28,6 @@ jobs:
       - name: Update Pods
         working-directory: ./ios
         run: |
-          gem update cocoapods xcodeproj
           pod install
       - name: Run test
         run: |
