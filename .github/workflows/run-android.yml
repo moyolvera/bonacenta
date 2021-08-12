@@ -24,3 +24,11 @@ jobs:
       - name: Run Android
         run: |
           yarn android
+      - name: Build Android Debug
+        run: |
+          cd android && ./gradlew assembleDebug
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: app-release.apk
+          path: android/app/build/outputs/apk/release/
