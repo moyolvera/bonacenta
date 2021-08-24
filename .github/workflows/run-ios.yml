@@ -34,4 +34,4 @@ jobs:
           yarn jest
       - name: Run iOS
         run: |
-          yarn ios
+          yarn ios --configuration Release

@@ -160,7 +160,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				DAB5C0846C490B605CB9F08E /* [CP] Embed Pods Frameworks */,
 				2F7168CD5A59DBA9F7CBB426 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -183,7 +182,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				5B2776377D65EC3A222DB524 /* [CP] Embed Pods Frameworks */,
 				E1E862F07F3B3FB30DEAD8F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -282,23 +280,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bonacenta-bonacentaTests/Pods-bonacenta-bonacentaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B2776377D65EC3A222DB524 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bonacenta/Pods-bonacenta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bonacenta/Pods-bonacenta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bonacenta/Pods-bonacenta-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6B097826C8EA55FB419511C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,23 +322,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DAB5C0846C490B605CB9F08E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bonacenta-bonacentaTests/Pods-bonacenta-bonacentaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bonacenta-bonacentaTests/Pods-bonacenta-bonacentaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bonacenta-bonacentaTests/Pods-bonacenta-bonacentaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1E862F07F3B3FB30DEAD8F9 /* [CP] Copy Pods Resources */ = {
